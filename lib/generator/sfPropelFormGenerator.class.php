@@ -166,7 +166,8 @@ class sfPropelFormGenerator extends sfGenerator
         }
       }
     }
-    return $tables;
+
+    return array_unique($tables);
   }
 
   /**
